@@ -6,16 +6,21 @@
 }
 
 body {
- /* background: rgb(170,170,170);
+  /* background: rgb(170,170,170);
 background: linear-gradient(90deg, rgba(170,170,170,1) 0%, rgba(255,255,255,1) 49%, rgba(170,170,170,1) 100%);*/
-background: rgb(255,244,254);
-background: radial-gradient(circle, rgba(255,244,254,1) 10%, rgba(148,187,233,1) 100%);
+  background: rgb(255, 244, 254);
+  background: radial-gradient(
+    circle,
+    rgba(255, 244, 254, 1) 10%,
+    rgba(148, 187, 233, 1) 100%
+  );
   font-family: "Courier New", Courier, monospace;
 }
 
 .skills {
   display: block;
   padding: 30px;
+  padding-bottom: 0;
 }
 
 .description {
@@ -39,11 +44,9 @@ summary:hover {
   color: rgba(204, 196, 196, 0.4);
 }
 details {
-  
   padding: 5px;
   color: #000;
 }
-
 
 i {
   color: #000;
@@ -63,7 +66,7 @@ h1 {
   margin-right: auto;
 }
 
-h2{
+h2 {
   color: #a1a1a1;
   font-size: 12px;
   text-align: center;
@@ -91,6 +94,7 @@ ul {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 20px;
 }
 
 .contact > ul {
