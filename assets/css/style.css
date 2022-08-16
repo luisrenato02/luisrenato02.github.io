@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+ /* background: rgb(170,170,170);
+background: linear-gradient(90deg, rgba(170,170,170,1) 0%, rgba(255,255,255,1) 49%, rgba(170,170,170,1) 100%);*/
+background: rgb(255,244,254);
+background: radial-gradient(circle, rgba(255,244,254,1) 10%, rgba(148,187,233,1) 100%);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.skills {
+  display: block;
+  padding: 30px;
+}
+
+.description {
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+summary {
+  border-radius: 6px;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px;
+  background-color: #000;
+  color: #fff;
+  transition: 0.7s ease;
+  list-style: inside;
+}
+
+summary:hover {
+  color: rgba(204, 196, 196, 0.4);
+}
+details {
+  
+  padding: 5px;
+  color: #000;
+}
+
+
+i {
+  color: #000;
+  font-size: 2rem;
+  transition: 0.7s ease;
+}
+
+i:hover {
+  color: rgb(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+  color: #a1a1a1;
+  font-size: 12px;
+  text-align: center;
+}
+
+#contato {
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  width: 140px;
+  padding: 5px;
+}
+
+.icon {
+  width: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.contact {
+  display: block;
+  width: 190px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact > ul {
+  display: flex;
+}
+
+.contact > ul > li {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.circle {
+  border: 2px solid #94bbe9;
+  margin-top: 50px;
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-30px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+iframe {
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.video {
+  list-style: none;
+}
